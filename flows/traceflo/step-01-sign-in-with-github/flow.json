@@ -1,0 +1,415 @@
+{
+  "schemaVersion": "traceflo.recorder.initial",
+  "session": {
+    "id": "4def7d39-986c-4236-a5dc-94c967b75077",
+    "flowName": "Step 01 - Sign in with github",
+    "appOrigin": "https://app.traceflo.dev",
+    "startingUrl": "https://app.traceflo.dev/profile",
+    "startedAt": "2026-06-28T06:37:05.199Z",
+    "stoppedAt": "2026-06-28T06:37:18.666Z"
+  },
+  "initialEvidence": {
+    "url": "https://app.traceflo.dev/profile",
+    "title": "TraceFlo Profile",
+    "capturedAt": "2026-06-28T06:37:05.216Z",
+    "viewport": {
+      "width": 1084,
+      "height": 828
+    },
+    "scroll": {
+      "x": 0,
+      "y": 0
+    },
+    "domSummary": [
+      {
+        "tagName": "button",
+        "role": "button",
+        "label": "Sign out",
+        "text": "Sign out",
+        "selector": "#sign-out",
+        "stableAttributes": {
+          "id": "sign-out",
+          "type": "button"
+        }
+      },
+      {
+        "tagName": "a",
+        "role": "link",
+        "label": "Sign in with GitHub",
+        "text": "Sign in with GitHub",
+        "selector": "a[href=\"https\\:\\/\\/app\\.traceflo\\.dev\\/auth\\/start\"]",
+        "stableAttributes": {
+          "href": "https://app.traceflo.dev/auth/start"
+        }
+      }
+    ],
+    "visualSnapshot": {
+      "id": "snapshot-907451157-1782628625259",
+      "fileName": "snapshot-907451157-1782628625259.png",
+      "mimeType": "image/png"
+    }
+  },
+  "flowSegments": [
+    {
+      "id": "a9511d97-2149-4139-a7f0-40645f284731",
+      "name": "Step 01 - Sign in with github",
+      "createdAt": "2026-06-28T06:37:05.199Z",
+      "actionIds": [
+        "717d829a-0b69-446d-9e27-431aa6884e01"
+      ]
+    }
+  ],
+  "actionFrames": [
+    {
+      "id": "717d829a-0b69-446d-9e27-431aa6884e01",
+      "sessionId": "4def7d39-986c-4236-a5dc-94c967b75077",
+      "flowId": "a9511d97-2149-4139-a7f0-40645f284731",
+      "flowName": "Step 01 - Sign in with github",
+      "type": "click",
+      "url": "https://app.traceflo.dev/profile",
+      "title": "TraceFlo Profile",
+      "urlContext": {
+        "before": {
+          "url": "https://app.traceflo.dev/profile",
+          "title": "TraceFlo Profile"
+        },
+        "after": {
+          "url": "https://app.traceflo.dev/profile",
+          "title": "TraceFlo Profile"
+        },
+        "changed": false
+      },
+      "timestamp": "2026-06-28T06:37:07.460Z",
+      "selectorCandidates": [
+        {
+          "kind": "stable-attribute",
+          "value": "a[href=\"https\\:\\/\\/app\\.traceflo\\.dev\\/auth\\/start\"]",
+          "unique": true,
+          "scope": {
+            "type": "visible-document",
+            "matchCount": 1
+          },
+          "visibility": {
+            "targetVisible": true,
+            "visibleMatches": 1,
+            "hiddenMatches": 0,
+            "totalMatches": 1
+          },
+          "parent": {
+            "tagName": "div",
+            "role": "",
+            "label": "Sign in with GitHub",
+            "text": "",
+            "selector": "#signed-out > div.actions",
+            "stableAttributes": {}
+          },
+          "score": 94
+        },
+        {
+          "kind": "aria",
+          "value": "link[name=\"Sign in with GitHub\"]",
+          "unique": true,
+          "scope": {
+            "type": "visible-document",
+            "matchCount": 1
+          },
+          "visibility": {
+            "targetVisible": true,
+            "visibleMatches": 1,
+            "hiddenMatches": 0,
+            "totalMatches": 1
+          },
+          "parent": {
+            "tagName": "div",
+            "role": "",
+            "label": "Sign in with GitHub",
+            "text": "",
+            "selector": "#signed-out > div.actions",
+            "stableAttributes": {}
+          },
+          "score": 88
+        },
+        {
+          "kind": "text",
+          "value": "text=Sign in with GitHub",
+          "unique": true,
+          "scope": {
+            "type": "visible-document",
+            "matchCount": 1
+          },
+          "visibility": {
+            "targetVisible": true,
+            "visibleMatches": 1,
+            "hiddenMatches": 0,
+            "totalMatches": 1
+          },
+          "parent": {
+            "tagName": "div",
+            "role": "",
+            "label": "Sign in with GitHub",
+            "text": "",
+            "selector": "#signed-out > div.actions",
+            "stableAttributes": {}
+          },
+          "score": 50
+        },
+        {
+          "kind": "css",
+          "value": "#signed-out > div.actions > a.button.primary",
+          "unique": true,
+          "scope": {
+            "type": "visible-document",
+            "matchCount": 1
+          },
+          "visibility": {
+            "targetVisible": true,
+            "visibleMatches": 1,
+            "hiddenMatches": 0,
+            "totalMatches": 1
+          },
+          "parent": {
+            "tagName": "div",
+            "role": "",
+            "label": "Sign in with GitHub",
+            "text": "",
+            "selector": "#signed-out > div.actions",
+            "stableAttributes": {}
+          },
+          "score": 35
+        },
+        {
+          "kind": "xpath",
+          "value": "/html/body/main/section[1]/div/a",
+          "unique": true,
+          "scope": {
+            "type": "visible-document",
+            "matchCount": 1
+          },
+          "visibility": {
+            "targetVisible": true,
+            "visibleMatches": 1,
+            "hiddenMatches": 0,
+            "totalMatches": 1
+          },
+          "parent": {
+            "tagName": "div",
+            "role": "",
+            "label": "Sign in with GitHub",
+            "text": "",
+            "selector": "#signed-out > div.actions",
+            "stableAttributes": {}
+          },
+          "score": 15
+        }
+      ],
+      "target": {
+        "tagName": "a",
+        "role": "link",
+        "accessibleName": "Sign in with GitHub",
+        "accessibleNameSource": "direct-text",
+        "replayLabel": "Sign in with GitHub",
+        "replayLabelSource": "direct-text",
+        "text": "Sign in with GitHub",
+        "attributes": {
+          "href": "https://app.traceflo.dev/auth/start"
+        },
+        "rect": {
+          "x": 39,
+          "y": 253,
+          "width": 178,
+          "height": 40
+        }
+      },
+      "safeValue": {
+        "classification": "none"
+      },
+      "observerEffects": {
+        "mutations": 0,
+        "resized": true,
+        "intersected": true,
+        "performanceEntryCount": 0,
+        "changedAttributes": [],
+        "addedInteractiveElements": []
+      },
+      "afterStateEvidence": {
+        "id": "after-717d829a-0b69-446d-9e27-431aa6884e01",
+        "capturedAt": "2026-06-28T06:37:07.457Z",
+        "url": "https://app.traceflo.dev/profile",
+        "title": "TraceFlo Profile",
+        "viewport": {
+          "width": 1084,
+          "height": 828
+        },
+        "scroll": {
+          "x": 0,
+          "y": 0
+        },
+        "activeElement": {
+          "tagName": "a",
+          "role": "link",
+          "label": "Sign in with GitHub",
+          "text": "Sign in with GitHub",
+          "selector": "a[href=\"https\\:\\/\\/app\\.traceflo\\.dev\\/auth\\/start\"]",
+          "stableAttributes": {
+            "href": "https://app.traceflo.dev/auth/start"
+          }
+        },
+        "target": {
+          "connected": true,
+          "visible": true,
+          "selector": "a[href=\"https\\:\\/\\/app\\.traceflo\\.dev\\/auth\\/start\"]"
+        },
+        "nearbyInteractiveElements": []
+      }
+    }
+  ],
+  "networkObservations": [
+    {
+      "id": "network-2923",
+      "sessionId": "4def7d39-986c-4236-a5dc-94c967b75077",
+      "actionFrameId": "717d829a-0b69-446d-9e27-431aa6884e01",
+      "flowId": "a9511d97-2149-4139-a7f0-40645f284731",
+      "flowName": "Step 01 - Sign in with github",
+      "requestId": "2923",
+      "url": "https://app.traceflo.dev/profile",
+      "method": "GET",
+      "resourceType": "main_frame",
+      "statusClass": "2xx",
+      "outcome": "completed",
+      "intent": {
+        "category": "unknown",
+        "confidence": "unknown",
+        "treatAsUserIntent": false,
+        "correlationBasis": [
+          "insufficient-evidence"
+        ]
+      },
+      "responseShape": {
+        "availability": "transport-metadata-only",
+        "bodyKind": "text",
+        "rawRequestBodyExcluded": true,
+        "rawResponseBodyExcluded": true
+      },
+      "fingerprint": "GET main_frame https://app.traceflo.dev/profile -> 2xx",
+      "waitAssociation": {
+        "actionFrameId": "717d829a-0b69-446d-9e27-431aa6884e01",
+        "startedWithinMs": 1916,
+        "reason": "action"
+      },
+      "startedAt": "2026-06-28T06:37:08.912Z",
+      "completedAt": "2026-06-28T06:37:09.178Z",
+      "initiator": "https://app.traceflo.dev/",
+      "redaction": "query-stripped-headers-excluded",
+      "contentType": "text/html; charset=utf-8",
+      "statusCode": 200,
+      "durationMs": 266
+    },
+    {
+      "id": "network-2924",
+      "sessionId": "4def7d39-986c-4236-a5dc-94c967b75077",
+      "actionFrameId": "717d829a-0b69-446d-9e27-431aa6884e01",
+      "flowId": "a9511d97-2149-4139-a7f0-40645f284731",
+      "flowName": "Step 01 - Sign in with github",
+      "requestId": "2924",
+      "url": "https://app.traceflo.dev/api/session",
+      "method": "GET",
+      "resourceType": "xmlhttprequest",
+      "statusClass": "2xx",
+      "outcome": "completed",
+      "intent": {
+        "category": "unknown",
+        "confidence": "unknown",
+        "treatAsUserIntent": false,
+        "correlationBasis": [
+          "insufficient-evidence"
+        ]
+      },
+      "responseShape": {
+        "availability": "shape-summary-unavailable",
+        "bodyKind": "json",
+        "rawRequestBodyExcluded": true,
+        "rawResponseBodyExcluded": true
+      },
+      "fingerprint": "GET xmlhttprequest https://app.traceflo.dev/api/session -> 2xx",
+      "waitAssociation": {
+        "actionFrameId": "717d829a-0b69-446d-9e27-431aa6884e01",
+        "startedWithinMs": 2183,
+        "reason": "action"
+      },
+      "startedAt": "2026-06-28T06:37:09.180Z",
+      "completedAt": "2026-06-28T06:37:09.462Z",
+      "initiator": "https://app.traceflo.dev/",
+      "redaction": "query-stripped-headers-excluded",
+      "contentType": "application/json",
+      "statusCode": 200,
+      "durationMs": 283
+    }
+  ],
+  "consoleEvidence": [],
+  "visualSnapshots": [
+    {
+      "id": "snapshot-907451157-1782628625259",
+      "fileName": "snapshot-907451157-1782628625259.png",
+      "mimeType": "image/png",
+      "capturedAt": "2026-06-28T06:37:05.220Z",
+      "source": "initial-evidence",
+      "url": "https://app.traceflo.dev/profile",
+      "title": "TraceFlo Profile"
+    }
+  ],
+  "replayPlan": {
+    "steps": [
+      {
+        "actionFrameId": "717d829a-0b69-446d-9e27-431aa6884e01",
+        "flowId": "a9511d97-2149-4139-a7f0-40645f284731",
+        "type": "click",
+        "locator": {
+          "kind": "stable-attribute",
+          "value": "a[href=\"https\\:\\/\\/app\\.traceflo\\.dev\\/auth\\/start\"]",
+          "unique": true,
+          "scope": {
+            "type": "visible-document",
+            "matchCount": 1
+          },
+          "visibility": {
+            "targetVisible": true,
+            "visibleMatches": 1,
+            "hiddenMatches": 0,
+            "totalMatches": 1
+          },
+          "parent": {
+            "tagName": "div",
+            "role": "",
+            "label": "Sign in with GitHub",
+            "text": "",
+            "selector": "#signed-out > div.actions",
+            "stableAttributes": {}
+          },
+          "score": 94
+        },
+        "urlBefore": "https://app.traceflo.dev/profile",
+        "urlAfter": "https://app.traceflo.dev/profile",
+        "value": {
+          "classification": "none"
+        },
+        "waitFor": {
+          "urlChanged": false,
+          "networkFingerprints": [],
+          "afterStateEvidenceId": "after-717d829a-0b69-446d-9e27-431aa6884e01"
+        },
+        "assertions": [
+          "after-state:after-717d829a-0b69-446d-9e27-431aa6884e01"
+        ],
+        "codegenReady": true
+      }
+    ],
+    "codegenReady": true
+  },
+  "redaction": {
+    "secretsExportedAsReferences": true,
+    "cookiesExcluded": true,
+    "authorizationHeadersExcluded": true,
+    "networkQueriesStripped": true
+  },
+  "warnings": []
+}
